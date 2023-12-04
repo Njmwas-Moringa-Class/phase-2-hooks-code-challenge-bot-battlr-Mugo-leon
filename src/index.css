@@ -1,24 +1,24 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.bot-container {
+  border: 5px solid #ccc;
+  margin-right: 20px;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
 }
 
-.text-wrap {
-  word-wrap: break-word;
+.bot-image {
+  width: 100px;
+  height: 100px;
 }
 
-.bot-army {
-  overflow-x: scroll;
-  min-height: 300px;
-  max-width: 100%;
+.bot-info {
+  margin-top: 10px;
 }
 
-.ui.grid > .row.bot-army-row {
-  flex-wrap: nowrap;
-  min-height: 100%;
+.bot-collection {
+  padding: 20px;
 }
 
-.ui.grid {
-  padding: 0px 20px;
-}
+
+
